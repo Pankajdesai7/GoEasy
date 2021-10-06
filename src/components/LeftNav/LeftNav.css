@@ -1,0 +1,26 @@
+
+.left-nav-container{
+    width: 250px;
+    height: 550px;
+    border-radius: 40px;
+    background-color: #3748E3;
+    box-shadow: 10px 1px 4px 1px rgba(26, 26, 65, 0.2);
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+@keyframes example {
+
+    0%   {background-color:#3748E3; left:750px;}
+    80% {background-color:#3748E3; left:0px;}
+    85% {background-color:#3748E3; left:80px;}
+    89% {background-color:#3748E3; left:0px;}
+    90% {background-color:#3748E3; left:40px;}
+    94% {background-color: #3748E3; left:0px;}
+    95% {background-color: #3748E3; left:20px;}
+    98% {background-color: #3748E3; left:0px;}
+    99% {background-color: #3748E3; left:10px;}
+    100% {background-color: #3748E3; left:0px;}    
+  }
