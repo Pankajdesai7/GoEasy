@@ -1,0 +1,10 @@
+
+.result-container{
+
+    width: 80%;
+    height: 80px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25px;
+    background-color:#afa1a1;
+}
